@@ -15,7 +15,8 @@ npm install vue
 also sudo npm install --global vue-cli
 
 
-Every time you pull, go to the repo home directory and run 'npm
+Every time you pull, go to the repo home directory, 'rm
+package-lock.json', and run 'npm
 install'
 
 Then, run 'npm run dev'
