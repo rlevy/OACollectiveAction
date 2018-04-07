@@ -23,4 +23,6 @@ Then, run 'npm run dev'
 
 To deploy the website:
 
-1) go to new branch, e.g., "alpha-1"
+1) go to new branch, e.g., "alpha-1":
+
+    'git checkout -b alpha-1'
