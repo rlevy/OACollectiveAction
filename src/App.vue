@@ -4,7 +4,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-light bg-light static-top">
           <div class="container">
-            <a class="navbar-brand" href="#">OA Collective Action</a>
+            <a class="navbar-brand" href="#">The Open Access Actions and Conversations Project</a>
             <!-- <a class="btn btn-primary" href="#">Sign In</a> -->
           </div>
         </nav>
@@ -35,7 +35,7 @@
           </div>
         </header>
 
-        <!-- Icons Grid -->
+        <!-- Icons Grid 
         <section class="features-icons bg-light text-center">
           <div class="container">
             <div class="row">
@@ -69,6 +69,7 @@
             </div>
           </div>
         </section>
+        -->
 
         <!-- Image Showcases -->
         <section class="showcase">
