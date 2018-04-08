@@ -9,7 +9,7 @@ notice you may need `sudo` perms
 ## How to update / run the website:
 - git pull lastest version
 - run `npm install` in root dir. if you run in to errors delete the `node-moduals` folder and re run `npm install`
-` to run use `npm run dev`
+- to run use `npm run dev`
 
 
 ## To deploy the website:
