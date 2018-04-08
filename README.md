@@ -1,29 +1,23 @@
 # OACollectiveAction
 
+## Requirements
+- NPM >3.0.0
+- we can do this on OS X with `sudo port install npm5`
+- vue & vue cli [found here](https://vuejs.org/v2/guide/installation.html)
+notice you may need `sudo` perms
 
-Make sure that npm version is >3; we can do this on OS X with 'sudo
-port install npm5'
-
-
-How to update the website:
-
-* make sure that Vue is installed (with npm -- Google "Vue
-installation" to find out how)
-
-npm install vue
-
-also sudo npm install --global vue-cli
+## How to update / run the website:
+- git pull lastest version
+- run `npm install` in root dir. if you run in to errors delete the `node-moduals` folder and re run `npm install`
+` to run use `npm run dev`
 
 
-Every time you pull, go to the repo home directory, 'rm
-package-lock.json', and run 'npm
-install'
+## To deploy the website:
+- checkout a new branch of the lastest code.
+- run `npm run build`
+- you should now have a dist folder. Go to the index.html and remove the `/` in the beginning of every script and link tag’s `src` attribute.
+---------
+### resources 
+- https://medium.com/@mwolfhoffman/deploying-to-github-pages-with-vue-webpack-cli-5b2ba17f14a0
 
-Then, run 'npm run dev'
 
-
-To deploy the website:
-
-1) go to new branch, e.g., "alpha-1":
-
-    'git checkout -b alpha-1'
